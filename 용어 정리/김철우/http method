@@ -1,0 +1,155 @@
+# Http Method란?(GET POST PUT DELETE) & ****Request, Response****
+
+### 🔧 REST
+
+### 아키텍쳐 원칙 세트이다.
+
+### HTTP URI를 통해 자원을 명시하고, `HTTP Method (POST, GET, PUT, DELETE)`
+를 통해 해당 자원에 대한 동사
+를 적용하는 것을 의미한다.
+
+### 우선 REST는
+HTTP 메소드로 동사를 표현하고, 앤드포인트(슬래시 뒤로부터)에는 명사로 표현한다.
+
+### Representational State Transfer  약자이다.
+
+### 이러한 REST로 구성된 API가 REST API이다.
+
+- 지원(Resource): URL
+- 행위(Verb): HTTP Method
+- 표현(Representaions)
+
+---
+
+## HTTP Method
+
+- HTTP란?
+    
+    **HTTP**는 **HyperText를 전송하기 위한 통신 규약**을 의미한다.
+    
+    ## METHOD
+    
+    ### 개발자가 특정한 행동을 정의하면 그 행동을 호출하면 프로그램에서 그대로 실행하는 것을 의미합니다
+    
+
+<aside>
+📌 조회: GET 
+등록: POST
+수정: PUT(전체)
+수정: PATCH(부분)
+삭제: DELETE
+
+</aside>
+
+**GET**: 서버로 부터 데이터를 취득
+
+**POST**: 서버에 데이터를 추가, 작성 등
+
+**PUT**:  서버의 데이터를 삭제
+
+**DELETE**: 서버 리소스의 헤더(메타 데이터의 취득)
+
+<aside>
+📌 메타데이터는 데이터에 관한 구조화된 데이터로, 다른 데이터를 설명해 주는 데이터를 말함.
+
+</aside>
+
+**HEAD**: 서버 리소스의 헤더(메타 데이터의 취득)
+
+**OPTIONS:** 리소스가 지원하고 있는 메소드의 취득
+
+**PATCH:** 리소스의 일부분을 수정
+
+**CONNECT:** 프룩시 동작의 터널 접속을 변경
+
+---
+
+### 멱등성(Idempotence)
+
+- **의미**
+    
+    <aside>
+    📎 여러번 수행해도 결과가 같음 즉, 데이터가 변형이 되지 않는다.
+    
+    </aside>
+    
+
+---
+
+## GET
+
+- **정의**
+    
+    GET 메소드는 주로 데이터를 **읽고(Read)**,  **검색(Retrieve)**할 때에 사용되는 메소드이다.
+    
+    GET요청이 성공적으로 이루어진다면 XML이나 JSON과 함께 **200 (OK) HTTP 응답 코드**를 리턴한다.
+    
+    에러가 발생하면 주로 **404(not found) 에러나 400 (bad request)** 에러가 발생한다.
+    
+
+---
+
+## POST
+
+- 정의
+    
+    PUT 메소드는 주로 리소스를 생성(create)할 때 사용된다. 
+    
+    - POST 요청은 idempotent 하지 않는다.
+    - 같은 POST 요청을 반복해서 했을 때 항상 같은 결과물이 나오는 것을 보장하지 않는다
+    
+    예시
+    
+    ```jsx
+    POST /user
+    body : {date : "example"}
+    Content-Type : "application/json"
+    ```
+    
+     URL을 통해서 데이터를 받지 않고, body 값을 통해서  받는다. 
+    데이터 조회에 성공한다면 body 값에 저장한 데이터 값을 저장하여 성공 응답을 보낸다.
+    
+    ---
+    
+    ## PUT
+    
+    - 정의
+        
+        리소스를 생성하고 업데이트를 하기 위해 서버로 데이터를 보내는 데 사용된다.
+        
+        - PUT 요청은 idempotent 한다.
+        - 동일한 PUT 요청을 여러 번 호출하면 항상 동일한 결과가 생성된다.
+        
+        **예시**
+        
+        ```jsx
+        PUT /user/1
+        body : {date : "update example"}
+        Content-Type : "application/json"
+        ```
+        
+        URL을 통해서 어떠한 데이터를 수정할지 파라메터를 받는다. 그리고 수정할 데이터 값을 body 값을 통해서 받는다.
+        
+        ---
+        
+        ## DELETE
+        
+        - 정의
+            
+            DELETE 메서드는 지정된 리소스를 삭제한다.
+            
+            **예시**
+            
+            ```jsx
+            DELETE /user/1
+            ```
+            
+            - DELETE 요청시에 body 값과 content-type 값이 비워져있다.
+            - URL을 통해서 어떠한 데이터를 삭제할지 파라메터를 받는다.
+            - 데이터 삭제에 성공하면 body 값 없이 성공 응답만 보낸다.
+            
+            ---
+            
+            ## HTTP 메시지
+            
+            ## 개념
