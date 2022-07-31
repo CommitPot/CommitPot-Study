@@ -20,7 +20,3 @@ fun main(args: Array<String>){
     }
     println(min + min2 - 50)
 }
-
-
-
-
