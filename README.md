@@ -25,7 +25,7 @@ DSM 8기 학생들의  Commit 스터디그룹입니다.
 
 [용어 정리]
 
-* 김연우 - [Android](https://github.com/CommitPot/CommitPot-Study/tree/main/%EC%9A%A9%EC%96%B4%20%EC%A0%95%EB%A6%AC/%EA%B9%80%EC%97%B0%EC%9A%B0)
+* 김연우 - [Android & Kotlin](https://github.com/CommitPot/CommitPot-Study/tree/main/%EC%9A%A9%EC%96%B4%20%EC%A0%95%EB%A6%AC/%EA%B9%80%EC%97%B0%EC%9A%B0)
 * 김철우 - [BackEnd](https://github.com/CommitPot/CommitPot-Study/tree/main/%EC%9A%A9%EC%96%B4%20%EC%A0%95%EB%A6%AC/%EA%B9%80%EC%B2%A0%EC%9A%B0)
 * 이정호 - [BackEnd](https://github.com/CommitPot/CommitPot-Study/tree/main/%EC%9A%A9%EC%96%B4%20%EC%A0%95%EB%A6%AC/%EC%9D%B4%EC%A0%95%ED%98%B8)
 * 정지관 - [FrontEnd](https://github.com/CommitPot/CommitPot-Study/tree/main/%EC%9A%A9%EC%96%B4%20%EC%A0%95%EB%A6%AC/%EC%A0%95%EC%A7%80%EA%B4%80)
