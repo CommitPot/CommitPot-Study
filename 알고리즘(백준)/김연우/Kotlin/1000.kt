@@ -1,4 +1,3 @@
-```Kotlin
 import java.util.Scanner
 
 fun main(args: Array<String>){
@@ -6,10 +5,5 @@ fun main(args: Array<String>){
     var a = sc.nextInt()
     var b = sc.nextInt()
     println(a+b)
-    println(a-b)
-    println(a*b)
-    println(a/b)
-    println(a%b)
 
 }
-```
