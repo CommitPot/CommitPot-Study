@@ -1,0 +1,30 @@
+extends, implements란?
+🤷‍♀️ 상속이란?
+상속 관계에 있는 두 클래스에 대해, 부모 클래스가 자손 클래스에게 속성을 물려주는 것을 말한다.
+→ 코드의 재사용이 목적이다.
+
+상자 하나하나는 모두 객체 (Object)이고, 자바 용어로는 class이다.
+이러한 계층을 표현하기 위해 만들어진 것이 바로 상속이다.
+하위 객체는 상위 객체 (부모)의 특징을 물려받는다.
+예를 들어 동물의 특징 '움직이다'를 포유류, 조류, 파충류는 그대로 물려받는다.즉. move()라는 메소드를 포유류,.조류, 파충류 객체가 모두 사용할 수 있다는 뜻이다.
+또 다른 예로 변수 또한 객체에 선언되어 있다면 물려받게 된다.
+나이 (age) 변수가 동물 객체에 선언되어 있다면 물려받게 된다.
+
+1. extends
+→ 부모에서 선언/ 정의를 모두 하며 자식은 메소드 / 변수를 그대로 사용할 수 있음
+2. implemets(interface 구현)
+→ 부모 객체는 선언만 하며 정의(내용)은 자식에서 오버라이딩(재정의) 해서 사용해야한다.
+3. abstract
+→ extends와 interface 혼합. extends 하되 몇 개는 추상 메소드로 구현되어 있음
+
+
+정리
+extends는 일반 클래스와 abstract 클래스 상속에 사용되고, implement는 interface 상속에 사용된다.
+class가 class를 상속받을 땐 extends를 사용하고, interface가 interface를 상속 받을 땐 extends를 사용한다.
+class가 interface를 사용할 땐 implements를 써야하고
+interface가 class를 사용할 땐 implements를 쓸수 없다.
+extends는 클래스 한 개만 상속 받을 수 있다.
+extends 자신 클래스는 부모 클래스의 기능을 사용한다.
+implements는 여러개 사용 가능하다.
+implements는 설계 목적으로 구현 가능하다.
+implements한 클래스는 implements의 내용을 다 사용해야 한다.
