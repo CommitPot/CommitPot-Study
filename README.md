@@ -1,7 +1,6 @@
 # CommitPot-Study
 
 
-
 ### 👨‍💻 소개
 
 DSM 8기 학생들의  Commit 스터디그룹입니다. 
