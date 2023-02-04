@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main(void){
+int main(){
 	int i, max=0, count;
 	
 	scanf("%d", &count);
