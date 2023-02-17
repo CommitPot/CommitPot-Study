@@ -1,17 +1,5 @@
 let fs = require("fs");
 let input = fs.readFileSync("/dev/stdin").toString().split("\n");
-let arr1 = input[0]
-  .split(" ")
-  .map((number) => Number(number))
-  .filter((num) => num === 0);
-let arr2 = input[1]
-  .split(" ")
-  .map((number) => Number(number))
-  .filter((num) => num === 0);
-let arr3 = input[2]
-  .split(" ")
-  .map((number) => Number(number))
-  .filter((num) => num === 0);
 
 for (let i = 0; i < 3; i++) {
   let arr = input[i]
