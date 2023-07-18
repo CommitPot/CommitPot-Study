@@ -14,7 +14,8 @@ function solution(my_string) {
     my_string.split('').map((res) => { 
         if(isUpperCase(res)) {
             answer += res.toLowerCase();
-        } else {
+        } 
+        else {
             answer += res.toUpperCase();
         }
     })
