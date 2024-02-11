@@ -22,6 +22,7 @@ DSM 8기 학생들의  Commit 스터디그룹입니다.
 * 이정호 - [백준 (JAVA & C)](https://github.com/CommitPot/CommitPot-Study/tree/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9D%B4%EC%A0%95%ED%98%B8)
 * 정지관 - [백준 (JS & Python)](https://github.com/CommitPot/CommitPot-Study/tree/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%A0%95%EC%A7%80%EA%B4%80)
 * 유찬홍 - [백준 (C & C++)](https://github.com/CommitPot/CommitPot-Study/tree/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9C%A0%EC%B0%AC%ED%99%8D)
+* 조병진 - [백준 (C & C++)](https://github.com/CommitPot/CommitPot-Study/tree/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%A1%B0%EB%B3%91%EC%A7%84)
 
 [용어 정리]
 
@@ -30,6 +31,7 @@ DSM 8기 학생들의  Commit 스터디그룹입니다.
 * 이정호 - [BackEnd](https://github.com/CommitPot/CommitPot-Study/tree/main/%EC%9A%A9%EC%96%B4%20%EC%A0%95%EB%A6%AC/%EC%9D%B4%EC%A0%95%ED%98%B8)
 * 정지관 - [FrontEnd](https://github.com/CommitPot/CommitPot-Study/tree/main/%EC%9A%A9%EC%96%B4%20%EC%A0%95%EB%A6%AC/%EC%A0%95%EC%A7%80%EA%B4%80)
 * 유찬홍 - [Flutter](https://github.com/CommitPot/CommitPot-Study/tree/main/%EC%9A%A9%EC%96%B4%20%EC%A0%95%EB%A6%AC/%EC%9C%A0%EC%B0%AC%ED%99%8D)
+* 조병진 - [iOS] ()
 
 
 
