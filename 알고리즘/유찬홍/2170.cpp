@@ -7,18 +7,18 @@ int main() {
     ios::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);
     int n;
     cin >> n;
-    pair<int, int> l[2000000];
+    pair<int, int> l[1000000];
     for (int i = 0, a, b; i < n; i++) {
         cin >> a >> b;
-        l[i] = {a, 1};
-        l[i + n] = {b, -1};
+        l[i] = {a, b};
     }
-    int e = 0, u, r = 0;
-    sort(l, l + n * 2);
-    for (auto [v, w]: l) {
-        if (!e) u = v;
-        e += w;
-        if (!e) r += v - u;
+    sort(l, l + n);
+    int s = -1e9 - 1, e = -1e9 - 1, r = 0;
+    for (auto [a, b]: l) {
+        if (e < a) {
+            r += e - s;
+            s = a, e = b;
+        } else if (e < b) e = b;
     }
-    cout << r;
+    cout << r + (e - s);
 }
