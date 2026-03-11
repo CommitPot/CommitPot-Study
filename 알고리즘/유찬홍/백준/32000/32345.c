@@ -20,3 +20,4 @@ int main() {
         printf("%lld\n", j < 0 ? -1 : r > 1 ? r : 1);
     }
 }
+
