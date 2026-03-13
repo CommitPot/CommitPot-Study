@@ -7,3 +7,4 @@ int main() {
     a = abs(a) + abs(b);
     printf("%s", (a & 1) == (c & 1) && a <= c ? "YES" : "NO");
 }
+
